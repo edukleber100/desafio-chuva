@@ -1,10 +1,11 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 header#cabecalho{
     font-family: 'Roboto', sans-serif;     
     position: absolute;
-    width: 1700px;
+    width: 1912px;
     height: 68px;
     left: 220;
     top: 0;
@@ -12,12 +13,12 @@ header#cabecalho{
 }
 
 header#cabecalho h1{
-    
+    font-family: 'Roboto';
     color: #725C5C;
     position: absolute;
     width: 500px;
     height: 16px;
-    left: 30px;
+    left: 12.9%;
     top: 5px;
     font-weight: 400;
     font-size: 14px;
@@ -29,7 +30,7 @@ header#cabecalho h2{
     width: 800px;
     height: 26px;
     top: 10px;
-    left: 1.65%;
+    left: 12.8%;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
@@ -40,12 +41,102 @@ header#cabecalho h3{
     position: absolute;
     width: 105px;
     height: 16px;
-    left: 1.7%;
+    left: 12.85%;
     top: 55%;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #725C5C;
+}
+
+.inicio h4{ /*h1 do bem vindo*/
+    position: absolute;
+    width: 72px;
+    height: 20px;
+    left: 1770px;
+    top: 17px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #333333;
+}
+
+.inicio h5{
+    position: absolute;
+    width: 163px;
+    height: 15px;
+    left: 86.8%;
+    top: 0px;
+    bottom: 20px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+    color: #333333;
+}
+
+.inicio img{
+    border-radius: 20px;
+    position: absolute;
+    left: 96.28%;
+    right: 2.53%;
+    top: 2.5%;
+}
+
+
+
+section .box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    left: 1400px;
+    top: 17px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+.lang{
+    position: absolute;
+    width: 42px;
+    height: 18px;
+    left: 1430px;
+    top: 25px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+}
+
+
+.boxlang img#img{
+    position: absolute;
+    width: 6px;
+    height: 4px;
+    left: 1480px;
+    top: 33px;
+}
+
+
+.boxlang img#img2{
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 1408px;
+    top: 24px;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+
 }
 
 .container img{
@@ -70,9 +161,12 @@ header#cabecalho h3{
     color: #FFFFFF;
 
 }
+
+
 nav#menu {
     position: absolute;
-    margin-top: 300;
+    margin-top: 400;
+    bottom: 40%;
     padding: 0;
     float: left;
 }
