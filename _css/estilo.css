@@ -1,2 +1,82 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header#cabecalho{
+    font-family: 'Roboto', sans-serif;     
+    position: absolute;
+    width: 1700px;
+    height: 68px;
+    left: 220;
+    top: 0;
+    background:  #FDF1EB;;
+}
+
+header#cabecalho h1{
+    
+    color: #725C5C;
+    position: absolute;
+    width: 500px;
+    height: 16px;
+    left: 30px;
+    top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+header#cabecalho h2{
+    position: absolute;
+    width: 800px;
+    height: 26px;
+    top: 10px;
+    left: 1.65%;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #725C5C;
+}
+
+header#cabecalho h3{
+    position: absolute;
+    width: 105px;
+    height: 16px;
+    left: 1.7%;
+    top: 55%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+.container img{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+
+.texto{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 1.2%;
+    right: 0%;
+    top: 1.4%;
+    bottom: 0%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+
+}
+nav#menu {
+    position: absolute;
+    margin-top: 300;
+    padding: 0;
+    float: left;
+}
+
+nav#menu li{
+    color: #725C5C;
+}
