@@ -205,6 +205,14 @@ nav#menu a{
     color: #725C5C;
 }
 
+nav#menu li:hover{
+	background-color: #FDF1EB;
+	transition: background-color 1.5s;
+	/*Transition: tempo pra mudar a cor enquanto tiver com mouse em cima*/
+}
+
+
+
 img#slaca{
     border: none;
     position: absolute;
