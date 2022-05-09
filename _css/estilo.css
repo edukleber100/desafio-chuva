@@ -211,6 +211,35 @@ nav#menu li:hover{
 	/*Transition: tempo pra mudar a cor enquanto tiver com mouse em cima*/
 }
 
+article#artigo h1{
+    color: #ED7839;
+    margin-left: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900, black;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 5%;
+}
+
+
+#download h1#down{
+    padding: 5px 5px;
+    background-color: #ED7839;
+    color: #FFFFFF;
+    width: 100px;
+    margin-left: 77%;
+    margin-top: -2.3%;
+    font-family: 'Roboto';
+    font-weight: 500, medium;
+    font-size: 13px;
+    line-height: 18.75px;
+    text-align: center;
+}
+
+#download a{
+    color: white;
+    text-decoration: none;
+}
 
 
 img#slaca{
