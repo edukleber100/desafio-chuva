@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
+
 header#cabecalho{
     font-family: 'Roboto', sans-serif;     
     position: absolute;
@@ -223,6 +224,7 @@ article#artigo h1{
 
 
 #download h1#down{
+    border-radius: 5px;
     padding: 5px 5px;
     background-color: #ED7839;
     color: #FFFFFF;
@@ -241,6 +243,44 @@ article#artigo h1{
     text-decoration: none;
 }
 
+#bdown{
+    color: #FFFFFF;
+    width: 100px;
+    margin-left: 75.1%;
+    margin-top: -1.7%;
+    font-family: 'Roboto';
+    font-weight: 500, medium;
+    font-size: 13px;
+    line-height: 18.75px;
+    text-align: center;
+}
+
+#star {
+    padding: 14px 14px;
+    border-radius: 5px;
+    background-color: #ED7839;
+    color: #FFFFFF;
+    width: 5px;
+    margin-left: 83.2%;
+    margin-top: -1.45%;
+    font-family: 'Roboto';
+    font-weight: 500, medium;
+    font-size: 13px;
+    line-height: 18.75px;
+    text-align: center;
+}
+
+div#imgstar{
+    color: black;
+    width: 100px;
+    margin-top: -1.2%;
+    margin-left: 81.4%;
+    font-family: 'Roboto';
+    font-weight: 500, medium;
+    font-size: 13px;
+    line-height: 18.75px;
+    text-align: center;
+}
 
 img#slaca{
     border: none;
@@ -248,7 +288,15 @@ img#slaca{
     width: 217.4px;
     left: 0%;
     right: 0%;
-    top: 7%;
+    top: 7.22%;
     bottom: 0%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+#citar h1{
+    position: relative;
+    color: #ED7839;
+    left: 1240px;
+    font-size: 13pt;
+    font-family: 'Roboto';
 }
