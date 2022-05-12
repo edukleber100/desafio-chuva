@@ -117,7 +117,8 @@ section .box{
 }
 
 .boxlang .lang a{
-    text-decoration: none;
+    text-decoration: black;
+    font-size: 14px;
 }
 
 .boxlang img#img{
@@ -140,10 +141,10 @@ section .box{
 .container div#texto{
     font-family: 'Roboto';
     position: absolute;
-    font-size: 22pt;
-    left: 25px;
-    margin-top: 80px;
-    bottom: 872px;
+    font-size: 70px;
+    left: 35px;
+    margin-top: 100px;
+    bottom: 855px;
     color: white;
 }
 
@@ -239,6 +240,7 @@ article#artigo h1{
 }
 
 #download a{
+    margin-left: 10px;
     color: white;
     text-decoration: none;
 }
@@ -300,3 +302,15 @@ img#slaca{
     font-size: 13pt;
     font-family: 'Roboto';
 }
+
+#topframe h1{
+    color:#4E4E4E;
+    padding-top: 10px;
+    font-family: 'Roboto';
+    width: 253px;
+    background-color: #FDF1EB;
+    margin-left: 76.5%;
+    font-size: 20pt;
+}
+
+
